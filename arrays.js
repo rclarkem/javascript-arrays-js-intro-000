@@ -37,3 +37,14 @@ function removeElementFromBeginningOfArray (array){
   newArr.shift()
   return newArr
 }
+
+function destructivelyRemoveElementFromEndOfArray(arr){
+  arr.pop()
+  return arr
+}
+
+function removeElementFromEndOfArray (arr){
+  let newArr =[...arr]
+  newArr.pop()
+  return newArr
+}
